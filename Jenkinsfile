@@ -12,7 +12,6 @@ pipeline {
             steps {
                 echo 'Building..'
 				sh '''
-					cd codewind-ls-node-prof
 					npm install
 					npm install -g vsce
 					vsce package
