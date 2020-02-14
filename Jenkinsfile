@@ -15,7 +15,8 @@ pipeline {
 					npm install
 					npm install npx
 					npm install vsce
-					npx vsce package
+					#npx vsce package
+					vsce package
 					echo "Extension build complete"
 					ls -la
 				'''
