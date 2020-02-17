@@ -13,8 +13,8 @@ pipeline {
                 echo 'Building..'
 				sh '''
 					npm install
-					npm install -g vsce
-					vsce package
+					npm i vsce
+					npx vsce package
 					echo "Extension build complete"
 					ls -la
 				'''
