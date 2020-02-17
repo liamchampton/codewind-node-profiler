@@ -13,8 +13,8 @@ pipeline {
                 echo 'Building..'
 				sh '''
 					npm install
-					npm install npx
-					npm install vsce
+					#npm install npx
+					npm install -g vsce
 					ls -la
 					#npx vsce package
 					#vsce package
